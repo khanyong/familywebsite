@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>eiNNNNIe in your area!</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>Family Introduction</h2>
+        <p>
+          This is a space created for the purpose of sharing my interests and
+          information. I hope that more interest will gather and a better
+          relationship will be made.
+        </p>
+        <img src="Photos/family-photo.jpg" alt="Family Photo" width="700" height="500" />
+      </section>
+
+      <section class="calendar">
+        <div class="calendar-container">
+          <h2 class="calendar-heading"></h2>
+          <div class="calendar-buttons">
+            <button id="prev-button">&lt;</button>
+            <button id="today-button">Today</button>
+            <button id="next-button">&gt;</button>
+          </div>
+          <div class="calendar-grid"></div>
+        </div>
+      </section>
+
+      <section class="knowledge">
+        <h2><a href="knowledge.html">My Knowledge</a></h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          gravida nunc nec justo hendrerit commodo. Duis in bibendum sapien. Nam
+          varius purus quis risus commodo, ut sodales magna pharetra.
+        </p>
+      </section>
+
+      <section class="life-log">
+        <h2><a href="life-log.html">Life Log</a></h2>
+        <p>
+          Nullam euismod faucibus ligula ac ornare. Pellentesque eget nibh quis
+          urna tristique tristique a a odio. Donec eu enim est. Aliquam
+          convallis quam urna, vitae consequat mauris malesuada non.
+        </p>
+      </section>
+
+
+    </main>
+
+    <footer>
+      <p>&copy; 2023 My Homepage</p>
+    </footer>
+
+    <div class="login-form">
+      <form method="post" action="login.php">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <input type="submit" value="Log in" />
+      </form>
+    </div>
+    
+    <script src="https://unpkg.com/holiday-kr@1.0.4/umd/holiday-kr.min.js"></script>
+    <script src="js/calendar.js" defer></script>
+    
+  </body>
+</html>

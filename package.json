@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "holiday-kr": "^0.1.5",
+    "moment-lunar": "^0.0.4"
+  }
+}

@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: whitesmoke;
+  }
+  
+  /* Styling for specific elements */
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Styling for classes */
+  .intro {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .knowledge, .life-log {
+    width: 50%;
+    height: 600px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    float: left;
+  }
+  /* Styling for the calendar section */
+  .calendar {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    clear: both;
+  }
+  
+  .calendar-container {
+    width: 100%;
+  }
+
+  .calendar-heading {
+    margin-top: 0;
+  }
+  
+  .calendar-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .calendar-buttons button {
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .calendar-buttons button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .calendar-grid div {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .today {
+    background-color: #f1c40f;
+    color: #f90505;
+    border-radius: 50%;
+    padding: 0.25em 0.5em;
+  }
+  
+  .holiday {
+    background-color: #ff6961;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.25em 0.5em;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .knowledge, .life-log {
+      width: 100%;
+    }
+  
+    #login {
+      width: 100px;
+    }
+  }
+  
+  /* Styling for the login form */
+  form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background-color: #333;
+    color: #fff;
+    padding: 0px; /* adjust the value as needed */
+    text-align: center;
+    margin-top: 0px; /* add margin-top property to lower the footer */
+    border-top: 0px solid #fff; /* add border-top property to make the top border thinner */
+  }
+  
+  main {
+    padding-bottom: 50px; /* adjust the value as needed */
+  }
+  
+  /* Resume Format */
+  .resume-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .resume-header h1 {
+    margin: 0;
+  }
+  
+  .resume-contact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .resume-contact div {
+    flex-basis: 50%;
+  }
+  
+  .resume-contact h2 {
+    margin-top: 0;
+  }
+  
+  .resume-summary {
+    margin-top: 30px;
+  }
+  
+  .resume-summary h2 {
+    margin-bottom: 10px;
+  }
+  
+  .resume-skills {
+    margin-top: 30px;
+  }
+  
+  .resume-skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .resume-skills li {
+    margin: 5px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .resume-work {
+    margin-top: 30px;
+  }
+  
+  .resume-work h2 {
+    margin-bottom: 10px;
+  }
+  
+  .resume-work ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-work li {
+    margin-bottom: 20px;
+  }
+  
+  .resume-work h3 {
+    margin-top: 0;
+  }
+  
+  .resume-work p {
+    margin-bottom: 0;
+  }
+  
+  .resume-education {
+    margin-top: 30px;
+  }
+  
+  .resume-education h2 {
+    margin-bottom: 10px;
+  }
+  
+  .resume-education ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-education li {
+    margin-bottom: 20px;
+  }
+  
+  .resume-education h3 {
+    margin-top: 0;
+  }
+  
+  .resume-education p {
+    margin-bottom: 0;
+  }
+  
+  .resume-hobbies {
+    margin-top: 30px;
+  }
+  
+  .resume-hobbies h2 {
+    margin-bottom: 10px;
+  }
+  
+  .resume-hobbies ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .resume-hobbies li {
+    margin: 5px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
